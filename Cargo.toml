@@ -1,0 +1,17 @@
+[package]
+name = "intro-heuristics"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+env_logger = "0.10.0"
+log = "0.4.17"
+
+proconio = "0.4.3"
+rand = "0.7.3"
+
+reqwest = { version = "0.11.14", features = ["blocking", "json"] }
+serde = { version = "1.0.152", features = ["derive"] }
+serde_json = "1.0.94"

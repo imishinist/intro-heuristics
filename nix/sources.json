@@ -1,0 +1,26 @@
+{
+    "nixpkgs": {
+        "branch": "release-22.11",
+        "description": "Nix Packages collection",
+        "homepage": "",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "b65d5650628bdba206410b1427009b6fa86caccd",
+        "sha256": "1fg9hyqhfn2d06g575vslgxwfd03cy5swazfpa11sq94z5fznhmw",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/b65d5650628bdba206410b1427009b6fa86caccd.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs-mozilla": {
+        "branch": "master",
+        "description": "Mozilla overlay for Nixpkgs.",
+        "homepage": "",
+        "owner": "mozilla",
+        "repo": "nixpkgs-mozilla",
+        "rev": "78e723925daf5c9e8d0a1837ec27059e61649cb6",
+        "sha256": "0k3jxk21s28jsfpmqv39vyhfz2srfm81kp4xnpzgsbjn77rhwn03",
+        "type": "tarball",
+        "url": "https://github.com/mozilla/nixpkgs-mozilla/archive/78e723925daf5c9e8d0a1837ec27059e61649cb6.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}

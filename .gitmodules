@@ -1,0 +1,3 @@
+[submodule "marathon-general-visualizer"]
+	path = marathon-general-visualizer
+	url = https://github.com/kyuridenamida/marathon-general-visualizer
